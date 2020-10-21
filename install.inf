@@ -1,0 +1,57 @@
+	; To use right-click install.inf and select "install". Then go to Mouse Properties>Pointers and select the Minecraft-cursor.
+	; 
+[Version]
+signature="$Windows NT$"
+Bibata-Modern-Classic Cursors By xtaodada and 4zz0u
+https://github.com/xtaodada/Minecraft-cursors
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Installed files
+
+[Scheme.Cur]
+"Arrow1.cur"
+"Arrow2.cur"
+"Arrow3.cur"
+"Arrow4.cur"
+"Arrow5.cur"
+"ArrowUp.cur"
+"Beamstick.cur"
+"Bow.cur"
+"Clock.ani"
+"Compass.cur"
+"Creeper.ani"
+"Diamond Pickaxe.cur"
+"Diamond Pickaxe_help.cur"
+"Diamond Sword.cur"
+"Diamond Sword_help.cur"
+"LoadingPickaxe.ani"
+"Redstonelink.cur"
+"Swordloading.ani"
+
+[Strings]
+CUR_DIR       = "Cursors\Minecraft Cursors"
+SCHEME_NAME   = "Minecraft Cursors"
+pointer       = "Diamond Sword.cur"
+help		  = "Diamond Sword_help.cur"
+work		  = "Swordloading.ani"
+busy		  = "Clock.ani"
+cross		  = "Compass.cur"
+text		  = "Beamstick.cur"
+hand		  = "Beamstick.cur"
+unavailiable  = "Redstonelink.cur"
+vert		  = "Arrow4.cur"   
+horz		  = "Arrow3.cur"
+dgn1		  = "Arrow2.cur"
+dgn2		  = "Arrow1.cur"
+move		  = "Arrow5.cur"
+alternate	  = "ArrowUp.cur"
+link		  = "Bow.cur"
